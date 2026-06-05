@@ -22,6 +22,10 @@ if a==12 :print("true")
 
 # typecasting
 # implicit and explcit
+g = "23"
+h = "13"
 
+print(int(g)+int(h))
+print(g+h)
 
 
