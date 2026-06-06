@@ -19,20 +19,42 @@
 #     j=j+1
 ############################################
 #WAP to display even no between 2 usedef num
-i=int(input("Enter first number "))
-j=int(input("Enter second number "))
-count = 0 
-if i>j:
-    while i>j:
-        if j%2==0:
-            print(j)
-            count = count+1
-        j=j+1
-else:
-    while  j>i:
-        if i%2==0:
-            print(i)
-            count = count+1
-        i=i+1
-print("No. of even numbers",count)
-    
+# i=int(input("Enter first number "))
+# j=int(input("Enter second number "))
+# count = 0 
+# if i>j:
+#     while i>j:
+#         if j%2==0:
+#             print(j)
+#             count = count+1
+#         j=j+1
+# else:
+#     while  j>i:
+#         if i%2==0:
+#             print(i)
+#             count = count+1
+#         i=i+1
+# print("No. of even numbers",count)
+############################################
+#WAP to check prime or not
+# i = int(input("Enter a number to check"))
+# j=1
+# count = 0
+# while i>=j:
+#     if i%j==0:
+#         count = count + 1
+#         if count == 3:
+#             break
+#     j=j+1
+# if count!=2:
+#     print("Not a prime number")
+# elif count ==2:
+#     print("Prime number")
+############################################
+#WAP Sum of digits of userdef number
+i = int(input("Enter a number"))
+sum = 0
+j =i.bit_length
+while i%10 != 0:
+    sum = sum + 
+
