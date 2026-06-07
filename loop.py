@@ -77,22 +77,22 @@
 # print("Reversed number is",count)
 ############################################
 #WAP fibonacci series
-i = int(input("Enter number of terms needed "))
-if i <=0:
-    print("Enter a positive number")
-elif i == 1 :
-    print("1")
-elif i == 2 :
-    print("1 1")
-else:
-    n1 = 1
-    n2 = 1
-    while i !=0:
-        print(n1,end="")
-        i = i-1
-        n1 = n2 
-        n2 = n2 + n1
-        
+# i = int(input("Enter number of terms needed "))
+# if i <=0:
+#     print("Enter a positive number")
+# elif i == 1 :
+#     print("1")
+# elif i == 2 :
+#     print("1 1")
+# else:
+#     n1 = 1
+#     n2 = 1
+#     while i !=0:
+#         print(n1,end="")
+#         i = i-1
+#         n1 = n2 
+        # n2 = n2 + n1
+#########################################################        
         
     
 
