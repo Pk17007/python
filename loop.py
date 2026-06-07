@@ -52,9 +52,47 @@
 #     print("Prime number")
 ############################################
 #WAP Sum of digits of userdef number
-i = int(input("Enter a number"))
-sum = 0
-j =i.bit_length
-while i%10 != 0:
-    sum = sum + 
+# i = int(input("Enter a number "))
+# sum = 0
+# while i!= 0: 
+#         sum = sum + i%10
+#         i = i//10
+# print("Sum of digits is",sum)
+############################################
+#WAP to find product of digits of a number
+# i = int(input("Enter a number "))
+# pro = 1
+# while i != 0: 
+#         pro = pro * (i%10)
+#         i = i//10
+
+# print("Sum of digits is",pro)
+############################################
+#WAP to reverse a userDef number
+# i = int(input("Enter a number "))
+# count = ""
+# while i!= 0: 
+#         count = count + str(i%10)
+#         i = i//10
+# print("Reversed number is",count)
+############################################
+#WAP fibonacci series
+i = int(input("Enter number of terms needed "))
+if i <=0:
+    print("Enter a positive number")
+elif i == 1 :
+    print("1")
+elif i == 2 :
+    print("1 1")
+else:
+    n1 = 1
+    n2 = 1
+    while i !=0:
+        print(n1,end="")
+        i = i-1
+        n1 = n2 
+        n2 = n2 + n1
+        
+        
+    
 
