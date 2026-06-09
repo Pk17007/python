@@ -19,3 +19,6 @@
 #     num = num * i
 # print("Factorial is",num)
 ###########################################
+# break and continue
+    
+    
