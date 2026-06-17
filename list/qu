@@ -1,0 +1,14 @@
+mylist = ['apple', 'banana', 'cherry']
+mylist[1:2] = ['kiwi', 'mango']
+print(mylist[2])
+print(mylist)
+
+# mango
+# ['apple', 'kiwi', 'mango', 'cherry']
+
+# What is a correct syntax for looping through the items of a list?
+# [print(x) for x in ['apple', 'banana', 'cherry']]
+
+# What is a correct syntax for making a copy of a list?
+# list2 = list(list1)
+# list2 = list1[:]
